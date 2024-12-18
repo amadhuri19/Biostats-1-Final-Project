@@ -1,8 +1,9 @@
 Analysis of Mental Health Determinants in Hennepin County
-Introduction
+
+Introduction.
 This study analyzed data from the SHAPE survey conducted by Hennepin County Public Health, focusing on residents' physical and mental health and social determinants of health. It assessed the association between two predictors—basic needs insecurity score (Insecurity2) and healthcare discrimination (Discrim2)—and the number of poor mental health days in the past 31 days (MHdays).
 
-Dataset Overview
+Dataset Overview.
 Source: SHAPE Survey
 Participants: 4539
 Variables: 9 (mental health, insecurity, discrimination, demographics)
@@ -12,13 +13,15 @@ Develop predictive models using:
 Discrim2 (two-sample test of means)
 Insecurity2 (linear regression)
 Both predictors (multiple regression)
-Methodology
+
+Methodology.
 Observational, cross-sectional design.
 Predictor variables:
 Insecurity2: Higher scores indicate higher insecurity.
 Discrim2: Binary (0 = no discrimination, 1 = discrimination).
 Controlled for demographic factors (gender, race/ethnicity, trans status).
-Key Findings
+
+Key Findings.
 Demographics:
 
 Agender/Genderqueer/Nonbinary, Transgender, and Native American groups reported the highest insecurity and poor mental health days.
@@ -38,7 +41,8 @@ The study underscores the impact of healthcare discrimination and basic needs in
 Include longitudinal designs to establish temporality.
 Adjust for demographic confounders.
 Explore additional factors for better predictive accuracy.
-Limitations
+
+Limitations.
 Cross-sectional design limits causal inference.
 Low adjusted R² indicates unexplained variability.
 Missing data handling not discussed.
